@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 36 36"
+   height="36"
+   width="36"
+   id="Componente_39_10">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+            .cls-5{stroke:none}
+        </style>
+  </defs>
+  <path
+     style="fill:#15d4d8"
+     d="M 18,6 A 12,12 0 1 1 6,18 12,12 0 0 1 18,6 Z"
+     id="Caminho_10576" />
+  <text
+     style="font-weight:700;font-size:18px;font-family:ProximaNova-Bold, 'Proxima Nova';fill:#ffffff"
+     y="24.561035"
+     x="13.895508"
+     font-weight="700"
+     font-size="18px"
+     id="_">
+    <tspan
+       id="tspan7"
+       y="24.561035"
+       x="13.895508">!</tspan>
+  </text>
+  <g
+     style="opacity:0.70099996;fill:none"
+     id="Caminho_6938">
+    <path
+       style="stroke:none"
+       id="path10"
+       transform="translate(3,3)"
+       class="cls-5"
+       d="M 15,0 A 15,15 0 1 1 0,15 15,15 0 0 1 15,0 Z" />
+    <path
+       style="fill:#15d4d8"
+       id="path12"
+       transform="translate(3,3)"
+       d="M 15,1 C 11.26,1 7.745,2.456 5.1,5.1 2.457,7.746 1,11.26 1,15 c 0,3.74 1.456,7.255 4.1,9.9 2.646,2.643 6.16,4.1 9.9,4.1 3.74,0 7.255,-1.456 9.9,-4.1 C 27.544,22.255 29,18.74 29,15 29,11.26 27.544,7.745 24.9,5.1 22.254,2.457 18.74,1 15,1 M 15,0 C 23.284,0 30,6.716 30,15 30,23.284 23.284,30 15,30 6.716,30 0,23.284 0,15 0,6.716 6.716,0 15,0 Z" />
+  </g>
+  <g
+     style="opacity:0.40900005;fill:none;stroke:#15d4d8"
+     id="Elipse_7497">
+    <circle
+       style="stroke:none"
+       id="circle15"
+       class="cls-5"
+       r="18"
+       cy="18"
+       cx="18" />
+    <circle
+       id="circle17"
+       r="17.5"
+       cy="18"
+       cx="18" />
+  </g>
+</svg>

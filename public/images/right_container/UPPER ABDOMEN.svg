@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.128" y1="-0.014" x2="-0.068" y2="1.02" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a54df"/>
+      <stop offset="1" stop-color="#15d4d8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="UPPER_ABDOMEN" data-name="UPPER ABDOMEN" transform="translate(-1804 -195)">
+    <g id="Grupo_10094" data-name="Grupo 10094" transform="translate(1804 195)">
+      <g id="Grupo_450" data-name="Grupo 450" transform="translate(0 0)">
+        <g id="Grupo_301" data-name="Grupo 301" transform="translate(0 0)">
+          <g id="Grupo_299" data-name="Grupo 299">
+            <path id="XMLID_17_" d="M0,33.086A33.365,33.365,0,0,0,3.523,48.018a1.521,1.521,0,0,0,2.181.559h0a1.5,1.5,0,0,0,.5-1.846A30.341,30.341,0,0,1,29.36,3a1.5,1.5,0,0,0,1.286-1.454h0A1.472,1.472,0,0,0,28.969.09,33.237,33.237,0,0,0,0,33.086Z" transform="translate(0 -0.023)" fill="url(#linear-gradient)"/>
+            <path id="XMLID_16_" d="M64.3,1.5h0a1.455,1.455,0,0,0,1.286,1.454,30.327,30.327,0,0,1,26.4,30.087A30.758,30.758,0,0,1,88.8,46.632a1.417,1.417,0,0,0,.5,1.846h0a1.481,1.481,0,0,0,2.181-.559A33.3,33.3,0,0,0,66.034-.009,1.533,1.533,0,0,0,64.3,1.5Z" transform="translate(-29.003 0.02)" fill="url(#linear-gradient)"/>
+            <path id="XMLID_15_" d="M39.333,104.9A29.656,29.656,0,0,1,16.924,94.662a1.435,1.435,0,0,0-1.932-.224h0a1.5,1.5,0,0,0-.276,2.181A32.581,32.581,0,0,0,64,96.563a1.5,1.5,0,0,0-.276-2.181h0a1.435,1.435,0,0,0-1.932.224A29.719,29.719,0,0,1,39.333,104.9Z" transform="translate(-6.332 -41.86)" fill="#15d4d8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_10096" data-name="Grupo 10096" transform="translate(1821.746 212.746)">
+      <path id="Caminho_9842" data-name="Caminho 9842" d="M25.133,3.829H23.219A2.881,2.881,0,0,1,20.44.926.927.927,0,0,0,19.513,0H12.1a.927.927,0,0,0-.926.926A2.881,2.881,0,0,1,8.4,3.829H6.484A6.491,6.491,0,0,0,0,10.312v9.263a.927.927,0,0,0,.926.926H5.619V30.69a.927.927,0,0,0,.926.926h8.336c.81-.031,1.369-.015,1.853,0h8.336A.927.927,0,0,0,26,30.69V20.5H30.69a.927.927,0,0,0,.926-.926V10.312A6.491,6.491,0,0,0,25.133,3.829Z" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="arrow-back" transform="translate(1847.465 224.535) rotate(90)">
+      <rect id="Retângulo_195" data-name="Retângulo 195" width="18" height="18" transform="translate(18.465 0.465) rotate(90)" fill="#fff" opacity="0"/>
+      <path id="Caminho_3897" data-name="Caminho 3897" d="M15.831,9.732H6.477L9.34,6.293a.79.79,0,1,0-1.215-1.01L4.181,10.016a.939.939,0,0,0-.071.118.1.1,0,0,1-.055.1.758.758,0,0,0,0,.568.1.1,0,0,0,.055.1.939.939,0,0,0,.071.118l3.944,4.732a.79.79,0,1,0,1.215-1.01L6.477,11.31h9.354a.789.789,0,1,0,0-1.577Z" transform="translate(-0.845 -1.056)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

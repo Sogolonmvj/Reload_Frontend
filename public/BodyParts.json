@@ -1,0 +1,215 @@
+{
+  "bodyparts": [
+              {
+              "id": 1,
+              "name": "Tornozelo",
+              "image": "/images/right_container/ANKLES.svg"
+              },
+              {
+              "id": 2,
+              "name": "Braços",
+              "image": "/images/right_container/ARMS.svg"
+              },
+              {
+              "id": 3,
+              "name": "Bexiga",
+              "image": "/images/right_container/BLADDER.svg"
+              },
+              {
+              "id": 4,
+              "name": "Ossos",
+              "image": "/images/right_container/BONES.svg"
+              },
+              {
+              "id": 5,
+              "name": "Nádegas",
+              "image": "/images/right_container/BUTTOCKS.svg"
+              },
+              {
+              "id": 6,
+              "name": "Cardiovascular",
+              "image": "/images/right_container/CARDIOVASCULAR.svg"
+              },
+              {
+              "id": 7,
+              "name": "Bochechas e Mandíbula",
+              "image": "/images/right_container/CHEEKS AND JAWS.svg"
+              },
+              {
+              "id": 8,
+              "name": "Peito",
+              "image": "/images/right_container/CHEST.svg"
+              },
+              {
+              "id": 9,
+              "name": "Digestão (Intestino)",
+              "image": "/images/right_container/DIGESTION (INTESTINES).svg"
+              },
+              {
+              "id": 10,
+              "name": "Digestão (Estômago)",
+              "image": "/images/right_container/DIGESTION (STOMACH).svg"
+              },
+              "id": 11,
+              "name": "Orelhas",
+              "image": "/images/right_container/EARS.svg"
+              },
+              {
+              "id": 12,
+              "name": "Cotovelos",
+              "image": "/images/right_container/ELBOWS.svg"
+              },
+              {
+              "id": 13,
+              "name": "Olhos",
+              "image": "/images/right_container/Eyes.svg"
+              },
+              {
+              "id": 14,
+              "name": "Unhas dos Pés",
+              "image": "/images/right_container/FEET NAILS.svg"
+              },
+              {
+              "id": 15,
+              "name": "Pele dos Pés",
+              "image": "/images/right_container/FOOT SKIN.svg"
+              },
+              {
+              "id": 16,
+              "name": "Pés",
+              "image": "/images/right_container/FOOT.svg"
+              },
+              {
+              "id": 17,
+              "name": "Genitália-Feminina",
+              "image": "/images/right_container/GENITALS-female.svg"
+              },
+              {
+              "id": 18,
+              "name": "Genitália-Masculina",
+              "image": "/images/right_container/GENITALS-male.svg"
+              },
+              {
+              "id": 19,
+              "name": "Gengiva e Dentes",
+              "image": "/images/right_container/GUMS AND TEETH.svg"
+              },
+              {
+              "id": 20,
+              "name": "Cabelo e Couro Cabeludo",
+              "image": "/images/right_container/HAIR AND SCALP.svg"
+              },
+              "id": 21,
+              "name": "Unhas das Mãos",
+              "image": "/images/right_container/HAND NAILS.svg"
+              },
+              {
+              "id": 22,
+              "name": "Pele das Mãos",
+              "image": "/images/right_container/HAND SKIN.svg"
+              },
+              {
+              "id": 23,
+              "name": "Mãos",
+              "image": "/images/right_container/HAND.svg"
+              },
+              {
+              "id": 24,
+              "name": "Cabeça - Testa",
+              "image": "/images/right_container/HEAD - FOREHEAD.svg"
+              },
+              {
+              "id": 25,
+              "name": "Quadril",
+              "image": "/images/right_container/HIPS.svg"
+              },
+              {
+              "id": 26,
+              "name": "Rins",
+              "image": "/images/right_container/KIDNEYS.svg"
+              },
+              {
+              "id": 27,
+              "name": "Joelhos",
+              "image": "/images/right_container/KNEES.svg"
+              },
+              {
+              "id": 28,
+              "name": "Pernas",
+              "image": "/images/right_container/LEGS.svg"
+              },
+              {
+              "id": 29,
+              "name": "Fígado - Detox",
+              "image": "/images/right_container/LIVER - DETOX.svg"
+              },
+              {
+              "id": 30,
+              "name": "Abdômen Inferior",
+              "image": "/images/right_container/LOWER ABDOMEN.svg"
+              },
+              "id": 31,
+              "name": "Lombar",
+              "image": "/images/right_container/LOWER BACK.svg"
+              },
+              {
+              "id": 32,
+              "name": "Pulmões - Respiração",
+              "image": "/images/right_container/LUNGS - BREATHING.svg"
+              },
+              {
+              "id": 33,
+              "name": "Pulmões",
+              "image": "/images/right_container/lungs.svg"
+              },
+              {
+              "id": 34,
+              "name": "Menstruação",
+              "image": "/images/right_container/MENSTRUATION.svg"
+              },
+              {
+              "id": 35,
+              "name": "Boca",
+              "image": "/images/right_container/MOUTH.svg"
+              },
+              {
+              "id": 36,
+              "name": "Pescoço - Garganta",
+              "image": "/images/right_container/NECK - THROAT.svg"
+              },
+              {
+              "id": 37,
+              "name": "Sistema Nervoso",
+              "image": "/images/right_container/NERVOUS SYSTEM.svg"
+              },
+              {
+              "id": 38,
+              "name": "Nariz",
+              "image": "/images/right_container/Nose.svg"
+              },
+              {
+              "id": 39,
+              "name": "Ombros",
+              "image": "/images/right_container/SHOULDERS.svg"
+              },
+              {
+              "id": 40,
+              "name": "Pele",
+              "image": "/images/right_container/SKIN.svg"
+              },
+              "id": 41,
+              "name": "Língua",
+              "image": "/images/right_container/Tongue.svg"
+              },
+              {
+              "id": 42,
+              "name": "Abdômen Superior",
+              "image": "/images/right_container/UPPER ABDOMEN.svg"
+              },
+              {
+              "id": 43,
+              "name": "Espinha Dorsal",
+              "image": "/images/right_container/UPPER BACK.svg"
+              }
+  ]
+}

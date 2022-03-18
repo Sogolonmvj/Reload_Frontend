@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.128" y1="-0.014" x2="-0.068" y2="1.02" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a54df"/>
+      <stop offset="1" stop-color="#15d4d8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="FEET_NAILS" data-name="FEET NAILS" transform="translate(-713 -147)">
+    <g id="HIPS" transform="translate(336)">
+      <g id="MENSTRUATION" transform="translate(299 -211)">
+        <g id="Grupo_450" data-name="Grupo 450" transform="translate(78 358)">
+          <g id="Grupo_301" data-name="Grupo 301" transform="translate(0)">
+            <g id="Grupo_299" data-name="Grupo 299">
+              <path id="XMLID_17_" d="M0,33.086A33.365,33.365,0,0,0,3.523,48.018a1.521,1.521,0,0,0,2.181.559h0a1.5,1.5,0,0,0,.5-1.846A30.341,30.341,0,0,1,29.36,3a1.5,1.5,0,0,0,1.286-1.454h0A1.472,1.472,0,0,0,28.969.09,33.237,33.237,0,0,0,0,33.086Z" transform="translate(0 -0.023)" fill="url(#linear-gradient)"/>
+              <path id="XMLID_16_" d="M64.3,1.5h0a1.455,1.455,0,0,0,1.286,1.454,30.327,30.327,0,0,1,26.4,30.087A30.758,30.758,0,0,1,88.8,46.632a1.417,1.417,0,0,0,.5,1.846h0a1.481,1.481,0,0,0,2.181-.559A33.3,33.3,0,0,0,66.034-.009,1.533,1.533,0,0,0,64.3,1.5Z" transform="translate(-29.003 0.02)" fill="url(#linear-gradient)"/>
+              <path id="XMLID_15_" d="M39.333,104.9A29.656,29.656,0,0,1,16.924,94.662a1.435,1.435,0,0,0-1.932-.224h0a1.5,1.5,0,0,0-.276,2.181A32.581,32.581,0,0,0,64,96.563a1.5,1.5,0,0,0-.276-2.181h0a1.435,1.435,0,0,0-1.932.224A29.719,29.719,0,0,1,39.333,104.9Z" transform="translate(-6.332 -41.86)" fill="#15d4d8"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="finger" transform="translate(734.375 165.658)">
+      <path id="Caminho_779" data-name="Caminho 779" d="M99.2,31.031l.334,5.032c.251,3.787-3.966,6.967-9.244,6.967H90.26c-5.276,0-9.5-3.178-9.244-6.967l.333-5.032A6.87,6.87,0,0,0,78.893,36.1l-.079,15.618c0,.811.915,1.468,2.044,1.468H99.53c1.129,0,2.043-.657,2.043-1.468l.079-15.618A6.871,6.871,0,0,0,99.2,31.031Z" transform="translate(-78.814 -27.766)" fill="url(#linear-gradient-3)"/>
+      <path id="Caminho_780" data-name="Caminho 780" d="M109.688,80.617a7.189,7.189,0,0,0,5.582,2.322h.026a7.19,7.19,0,0,0,5.582-2.322,14.576,14.576,0,0,0-11.19,0Z" transform="translate(-103.824 -69.699)" fill="url(#linear-gradient-3)"/>
+      <path id="Caminho_781" data-name="Caminho 781" d="M112.886,7.885a27.251,27.251,0,0,1,7.747,1.031c.042-.344.066.163-.613-7.551C119.953.6,118.789,0,117.377,0H108.4c-1.413,0-2.577.6-2.644,1.364-.679,7.71-.655,7.207-.613,7.551A27.249,27.249,0,0,1,112.886,7.885Z" transform="translate(-101.427 0)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

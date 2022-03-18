@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" width="24" height="24" data-name="Layer 2" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{opacity:0}.cls-1,.cls-3{fill:url(#linear-gradient)}.cls-2{clip-path:url(#clip-path)}
+        </style>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4a54df"/>
+            <stop offset="1" stop-color="#15d4d8"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <path id="Retângulo_3184" d="M0 0h24v24H0z" class="cls-1" data-name="Retângulo 3184"/>
+        </clipPath>
+    </defs>
+    <g id="refresh">
+        <g id="Grupo_de_máscara_120" class="cls-2" data-name="Grupo de máscara 120">
+            <g id="Layer_2-2" data-name="Layer 2">
+                <g id="corner-up-left">
+                    <path id="Retângulo_3186" d="M0 0h24v24H0z" class="cls-1" data-name="Retângulo 3186" transform="rotate(90 12 12)"/>
+                    <path id="Caminho_5474" d="M16 10H7.08l2.7-3.38a1 1 0 1 0-1.56-1.24l-4 5a1 1 0 0 0 0 1.24l4 5a1 1 0 0 0 1.56-1.24L7.08 12H16a1 1 0 0 1 1 1v5a1 1 0 0 0 2 0v-5a3 3 0 0 0-3-3z" class="cls-3" data-name="Caminho 5474"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

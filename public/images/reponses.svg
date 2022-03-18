@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132">
+  <g id="Grupo_17288" data-name="Grupo 17288" transform="translate(-1651 -868)">
+    <rect id="Retângulo_2625" data-name="Retângulo 2625" width="100" height="100" rx="50" transform="translate(1667 884)" fill="#fff"/>
+    <g id="Grupo_17243" data-name="Grupo 17243" transform="translate(1698.303 907.967)">
+      <path id="Caminho_2869" data-name="Caminho 2869" d="M232.278,7093.02l-12-12h-26v48h38Z" transform="translate(-194.58 -7080.986)" fill="#15d4d8"/>
+      <path id="Caminho_2870" data-name="Caminho 2870" d="M207.276,7111.014h21a1,1,0,0,0,0-2h-21a1,1,0,0,0,0,2Z" transform="translate(-199.079 -7091.48)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Caminho_2872" data-name="Caminho 2872" d="M228.276,7119.28h-21a1,1,0,0,0,0,2h21a1,1,0,0,0,0-2Z" transform="translate(-199.079 -7092.747)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Caminho_2873" data-name="Caminho 2873" d="M228.276,7130.547h-21a1.146,1.146,0,0,0-1,1c0,.459.541,0,1,0h21c.458,0,1,.459,1,0A1.146,1.146,0,0,0,228.276,7130.547Z" transform="translate(-199.079 -7094.014)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="Caminho_2875" data-name="Caminho 2875" d="M236.268,7080.52v12h11Z" transform="translate(-210.07 -7080.986)" fill="#15d4d8" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g id="Retângulo_4563" data-name="Retângulo 4563" transform="translate(1672 889)" fill="none" stroke="#15d4d8" stroke-width="1">
+      <rect width="90" height="90" rx="45" stroke="none"/>
+      <rect x="0.5" y="0.5" width="89" height="89" rx="44.5" fill="none"/>
+    </g>
+    <g id="Retângulo_4564" data-name="Retângulo 4564" transform="translate(1662 879)" fill="none" stroke="#15d4d8" stroke-width="1" opacity="0.41">
+      <rect width="110" height="110" rx="55" stroke="none"/>
+      <rect x="0.5" y="0.5" width="109" height="109" rx="54.5" fill="none"/>
+    </g>
+    <g id="Retângulo_4565" data-name="Retângulo 4565" transform="translate(1651 868)" fill="none" stroke="#15d4d8" stroke-width="1" opacity="0.17">
+      <rect width="132" height="132" rx="66" stroke="none"/>
+      <rect x="0.5" y="0.5" width="131" height="131" rx="65.5" fill="none"/>
+    </g>
+  </g>
+</svg>

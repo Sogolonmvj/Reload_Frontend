@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#6a6a6a;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Grupo_17082" transform="translate(-1273.482 -278)">
+        <circle id="Elipse_7647" cx="17.5" cy="17.5" r="17.5" fill="#ddd" opacity="0.65" transform="translate(1273.482 278)"/>
+        <g id="Grupo_17081" opacity="0.34" transform="rotate(135 589.834 417.417)">
+            <path id="Caminho_17639" d="M0 0v15.677" class="cls-3" transform="translate(7.839)"/>
+            <path id="Caminho_17640" d="M0 0v15.677" class="cls-3" transform="rotate(90 3.92 11.758)"/>
+        </g>
+    </g>
+</svg>

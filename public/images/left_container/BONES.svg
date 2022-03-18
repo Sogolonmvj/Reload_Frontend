@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.771" height="35.952" viewBox="0 0 23.771 35.952">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4a54df"/>
+            <stop offset="1" stop-color="#15d4d8"/>
+        </linearGradient>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Grupo_10895" transform="translate(-858.787 -317.857)">
+        <g id="knee" transform="translate(858.787 317.857)">
+            <path id="Caminho_782" d="M53.82 82.12a5.328 5.328 0 0 1 3 .935 5.328 5.328 0 0 1 3-.935h.057a5.284 5.284 0 0 1-2.03-4.1 5.324 5.324 0 0 1-3.293-3.589 6.7 6.7 0 0 0-4.243 6.292 6.878 6.878 0 0 0 .422 2.379 5.285 5.285 0 0 1 3.087-.982z" class="cls-1" transform="translate(-50.32 -65.426)"/>
+            <path id="Caminho_783" d="M59.829 152.926a3.5 3.5 0 0 0-3 1.7A3.5 3.5 0 1 0 51 158.5a14.275 14.275 0 0 1 2.79 8.468v2.206a1.194 1.194 0 0 0 1.194 1.194h3.68a1.194 1.194 0 0 0 1.194-1.194v-2.204a14.232 14.232 0 0 1 2.79-8.468 3.5 3.5 0 0 0-2.819-5.575z" class="cls-1" transform="translate(-50.32 -134.417)"/>
+            <path id="Caminho_784" d="M116.526 3.507L114.4.5a1.193 1.193 0 0 0-1.665-.28l-1.8 1.275a14.228 14.228 0 0 1-8.245 2.621H102.345a3.5 3.5 0 0 0 .006 7q.134 0 .268-.01a3.5 3.5 0 1 0 6.525 2.515 14.275 14.275 0 0 1 5.3-7.171l1.8-1.275a1.194 1.194 0 0 0 .282-1.668zm-13.79 3.362a.987.987 0 0 0-.986.985.908.908 0 1 1-1.816 0 2.8 2.8 0 0 1 2.8-2.8.908.908 0 0 1 0 1.816z" class="cls-1" transform="translate(-92.974)"/>
+        </g>
+    </g>
+</svg>
