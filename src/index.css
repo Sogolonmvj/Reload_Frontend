@@ -3,3 +3,22 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, rgb(82, 128, 230), rgb(18, 230, 251));
+    opacity: 1;
+
+    transition: opacity 300ms ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 0.75;
+}

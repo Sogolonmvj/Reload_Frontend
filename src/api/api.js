@@ -1,1 +1,2 @@
 export const api = "https://gist.githubusercontent.com/Sogolonmvj/3a1202ad4672f54e4bfd3926b76e2c0b/raw/b5e4869eb46ee238202fcab0aef995f0e42a0538/BodyParts.json";
+export const leftApi = "https://gist.githubusercontent.com/Sogolonmvj/b974b1bc2562338d5acaec1da4ab9733/raw/c282638e2c0e4ae5ba23b32d1dbe25838362674f/Left.json";

@@ -41,9 +41,9 @@ export const Button = styled.button`
 `
 
 export const ResponsesButton = styled.a`
-    position: absolute;
-    right: 10rem;
-    top: 47rem;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
 
     img {
         width: 64px;

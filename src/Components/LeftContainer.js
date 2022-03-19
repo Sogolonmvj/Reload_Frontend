@@ -29,7 +29,7 @@ const LeftContainer = (props) => {
       return bodyPart;
     } else if (bodyPart.bodypart.toLowerCase().includes(searchedPart.toLowerCase())) {
       return bodyPart;
-    }
+    } else return null
     
   })
 
@@ -42,13 +42,13 @@ const LeftContainer = (props) => {
       <TextField defaultValue={searchedPart} placeholder="Procurar parte do corpo" readOnly />
       <Parts id="parts">
         <UnorderedList>
-        {filteredParts.map((bodyPart) => {
-          return (
-            <List key={bodyPart.id}>
-              <Card key={bodyPart.id} name={bodyPart.name} image={bodyPart.image} alt="image-url" />
-            </List>
-          )
-        })}
+          {filteredParts.map((bodyPart) => {
+            return (
+              <List key={bodyPart.id}>
+                <Card key={bodyPart.id} name={bodyPart.name} image={bodyPart.image} alt="image-url" />
+              </List>
+            )
+          })}
         </UnorderedList>
       </Parts>
     </SearchBoxComponent>

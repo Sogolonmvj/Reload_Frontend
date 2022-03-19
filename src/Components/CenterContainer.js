@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { Division, Body } from '../Styles/centerContainer';
+import { Division, Body, Text, Rotate } from '../Styles/centerContainer';
 
 import Manbody from './ManBody';
 
-import { mostProbableIcon } from '../Constants/Files';
+import { mostProbableIcon, rotateIcon } from '../Constants/Files';
 
 const CenterContainer = (props) => {
 
@@ -13,12 +13,16 @@ const CenterContainer = (props) => {
   }
 
   return (
-    <Division>
-        <img src={mostProbableIcon} alt="background" />
-        <Body>
-          <Manbody func={pullData} />
-        </Body> 
-    </Division>
+    <>
+      <Division>
+          <img id='background' src={mostProbableIcon} alt="background" />
+          <Body>
+            <Manbody func={pullData} />
+            <Rotate><img id='rotate' src={rotateIcon} alt="rotate" /></Rotate>
+            <Text>Girar 180°</Text>
+          </Body> 
+      </Division>
+    </>
   )
 }
 

@@ -5,6 +5,10 @@ export const CardStyle = styled.div`
     flex-direction: row;
     align-items: center;
 
+    background-color: white;
+
+    margin-bottom: 3px;
+    padding-left: 1rem;
 `
 
 export const Division = styled.div`
