@@ -1,16 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { CardStyle, Division, Image, Name } from '../../Styles/card/card';
+import { CardStyle, Division, Image, CheckBox, Name } from '../../Styles/card/card';
 
 const Card = (props) => {
 
-    if (!props) return null;
+  let [checked, setChecked] = useState(true);
+  let [counter, setCounter] = useState(0);
+
+  if (!props) return null;
+
+  const handleClick = () => {
+    setChecked(checked ? false : true);
+    setCounter(checked ? counter++ : counter--);
+    props.counter(counter);
+  }
 
   return (
     <>
         <CardStyle className="card">
             <Image src={props.image} alt={props.alt} />
             <Division>
+                <CheckBox type="checkbox" onClick={handleClick}></CheckBox>
                 <Name>{props.name}</Name>
             </Division>
         </CardStyle>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import Card from './Card/Card';
 
-import { SearchBoxComponent, TextField, Parts, UnorderedList, List } from '../Styles/leftContainer';
+import { SearchBoxComponent, IconField, TextField, Parts, UnorderedList, List } from '../Styles/leftContainer';
 
 import { api } from '../api/api';
 
@@ -37,15 +37,27 @@ const LeftContainer = (props) => {
     setSearchedPart(props.clickedPart);
   }, [props]);
 
+  let symptomsCounter = 0;
+
+  const getSymptomsCounter = (data) => {
+    symptomsCounter += data;
+
+    let element = document.getElementById("symptoms-counter");
+
+    element.innerHTML = parseInt(symptomsCounter, 10);
+  }
+
   return (
     <SearchBoxComponent>
-      <TextField defaultValue={searchedPart} placeholder="Procurar parte do corpo" readOnly />
+      <IconField>
+        <TextField defaultValue={searchedPart} placeholder="Pesquisar / Sugestões" readOnly />
+      </IconField>
       <Parts id="parts">
         <UnorderedList>
           {filteredParts.map((bodyPart) => {
             return (
               <List key={bodyPart.id}>
-                <Card key={bodyPart.id} name={bodyPart.name} image={bodyPart.image} alt="image-url" />
+                <Card key={bodyPart.id} name={bodyPart.name} image={bodyPart.image} alt="image-url" counter={getSymptomsCounter} />
               </List>
             )
           })}

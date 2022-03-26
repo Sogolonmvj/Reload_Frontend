@@ -10,5 +10,6 @@ export const responsesIcon = "/images/reponses.svg";
 export const searchIcon = "/images/search_input_icon.svg";
 export const flagIcon = "/images/brazil_round_icon_64.png";
 export const homeIcon = "/images/icons8-home.svg";
+export const avatarAurea = "/images/avatar-back-aurea.svg";
 
 export const manbody = "/images/manbody.svg";

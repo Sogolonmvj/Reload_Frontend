@@ -11,7 +11,7 @@ export const CardStyle = styled.div`
     background-color: white;
 
     border-radius: 100px;
-    box-shadow: 2px 2px 2px 2px lightgray;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
 
     margin-right: 20px;
     margin-bottom: 20px;
