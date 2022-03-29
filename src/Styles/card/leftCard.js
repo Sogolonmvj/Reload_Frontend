@@ -2,21 +2,20 @@ import styled from 'styled-components';
 
 export const CardStyle = styled.div`
     display: flex;
-    flex-direction: column;
-
-    justify-content: center;
+    flex-direction: row;
 
     align-items: center;
 
     background-color: white;
 
-    border-radius: 200px;
+    border-radius: 14px;
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
 
-    margin-right: 20px;
-    margin-bottom: 20px;
+    padding: 0 0 0 20px;
+    
+    width: 180px;
 
-    padding: 0;
+    margin: 5px;
 
     cursor: pointer;
 
@@ -33,23 +32,26 @@ export const CardStyle = styled.div`
 
 export const Division = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
+
+    align-items: center;
 
     margin: 0;
     padding: 5px;
 `
 
 export const Image = styled.img`
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 
     padding: 0;
-    margin-top: 10px;
+    margin: 0;
 `
 
 export const Name = styled.p`
     font-weight: bold;
-    font-size: 18px;
-    
-    padding: 2px 4px;
+    font-size: 20px;
+
+    margin-left: 5px;
+    padding: 2px;
 `

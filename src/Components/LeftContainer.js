@@ -2,14 +2,17 @@ import React, { useEffect, useState } from 'react'
 
 import Card from './Card/Card';
 
-import { SearchBoxComponent, IconField, TextField, Parts, UnorderedList, List } from '../Styles/leftContainer';
+import { Division, HorizontalList, SearchBoxComponent, IconField, TextField, Parts, UnorderedList, List } from '../Styles/leftContainer';
 
 import { api } from '../api/api';
+
+import LeftCard from '../Components/Card/LeftCard';
 
 const LeftContainer = (props) => {
 
   const [bodyParts, setBodyParts] = useState([]);
   const [searchedPart, setSearchedPart] = useState('');
+  const [searchedOrgan, setSearchedOrgan] = useState('');
 
   useEffect(() => {
     fetch(api)
@@ -33,6 +36,16 @@ const LeftContainer = (props) => {
     
   })
 
+  const filteredByName = filteredParts.filter(bodyPart => {
+
+    if (searchedOrgan === "") {
+      return bodyPart;
+    } else if (bodyPart.name.toLowerCase().includes(searchedOrgan.toLowerCase())) {
+      return bodyPart;
+    } else return null
+    
+  })
+
   useEffect(() => {
     setSearchedPart(props.clickedPart);
   }, [props]);
@@ -47,23 +60,44 @@ const LeftContainer = (props) => {
     element.innerHTML = parseInt(symptomsCounter, 10);
   }
 
+  const getSearchedOrgan = (data) => {
+    setSearchedOrgan(data);
+  }
+
   return (
-    <SearchBoxComponent>
-      <IconField>
-        <TextField defaultValue={searchedPart} placeholder="Pesquisar / Sugestões" readOnly />
-      </IconField>
-      <Parts id="parts">
-        <UnorderedList>
-          {filteredParts.map((bodyPart) => {
-            return (
-              <List key={bodyPart.id}>
-                <Card key={bodyPart.id} name={bodyPart.name} image={bodyPart.image} alt="image-url" counter={getSymptomsCounter} />
-              </List>
-            )
-          })}
-        </UnorderedList>
-      </Parts>
-    </SearchBoxComponent>
+    <Division>
+      <HorizontalList id="subpart-cards">
+        {filteredParts.map((bodyPart) => {
+          return (
+            <>
+              {searchedPart ?
+                <List key={bodyPart.id}>
+                  <LeftCard key={bodyPart.id} name={bodyPart.name} image={bodyPart.image} alt="card-image" searchedOrgan={getSearchedOrgan} />
+                </List>
+              : 
+              null
+              } 
+            </>
+          )
+        })}
+      </HorizontalList>
+      <SearchBoxComponent>
+        <IconField>
+          <TextField defaultValue={searchedPart} placeholder="Pesquisar / Sugestões" readOnly />
+        </IconField>
+        <Parts id="parts">
+          <UnorderedList>
+            {filteredByName.map((bodyPart) => {
+              return (
+                <List key={bodyPart.id}>
+                  <Card key={bodyPart.id} name={bodyPart.name} image={bodyPart.image} alt="image-url" counter={getSymptomsCounter} />
+                </List>
+              )
+            })}
+          </UnorderedList>
+        </Parts>
+      </SearchBoxComponent>
+    </Division>
   )
 }
 

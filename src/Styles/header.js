@@ -29,7 +29,6 @@ export const HomeButton = styled.a`
     img {
         width: 32px;
         height: 32px;
-        filter: invert(100%) sepia(7%) saturate(387%) hue-rotate(242deg) brightness(115%) contrast(92%);
     }
 `
 
@@ -46,7 +45,7 @@ export const Logo = styled.a`
     }
 `
 
-export const FlagOption = styled.a`
+export const FlagOption = styled.span`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,7 +70,7 @@ export const FlagOption = styled.a`
     }
 `
 
-export const Flag = styled.a`
+export const Flag = styled.span`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -85,8 +84,10 @@ export const Flag = styled.a`
     right: 1rem;
 `
 
-export const SearchButton = styled.a`
+export const SearchButton = styled.span`
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
+    cursor: pointer;
 `

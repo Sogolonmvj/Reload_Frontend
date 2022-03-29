@@ -1,5 +1,20 @@
 import styled from 'styled-components';
 
+export const Division = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+export const HorizontalList = styled.ul`
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+
+    padding: 0;
+    margin-bottom: 5px;
+`
+
 export const SearchBoxComponent = styled.div`
     display: flex;
     flex-direction: column;

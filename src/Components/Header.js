@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Group, Division, HomeButton, Logo, FlagOption, Flag, SearchButton, Label } from '../Styles/header';
 
-import { logo, chooseFlag, leftArrow, mostProbableIcon, mostProbableOutcome, rotateIcon, otherIssues, clearInputIcon, responsesIcon, searchIcon, flagIcon, homeIcon } from '../Constants/Files';
+import { logo, chooseFlag, searchIcon, flagIcon, homeIcon } from '../Constants/Files';
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
           <img src={homeIcon} alt="home-button" />
           <Label>Início</Label>
         </HomeButton>
-        <Logo><img src={logo} alt="logo" /></Logo>
+        <Logo href="/"><img src={logo} alt="logo" /></Logo>
         <FlagOption>
           <Flag>
             <img className="flag-icon" src={flagIcon} alt="flag" />
